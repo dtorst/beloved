@@ -1,9 +1,9 @@
 /*
 Theme Name: Beloved
 Theme URI: http://www.mybelovd.com
-Description: WordPress theme for belovedhawaii.com
+Description: WordPress theme for mybelovd.com
 Version: 1
-Author: Sarah Magidoff and David Torstenson
+Author: David Torstenson
 Author URI: http://www.mapsandlegends.co
 */
 
@@ -60,7 +60,7 @@ table {
 
 
 
-
+/* UNIVERSAL */
 
 	@font-face {
 		font-family: GeoSansLight;
@@ -108,10 +108,7 @@ table {
 	.clear {
 		clear:both;
 	}
-	
-	header {
-		margin-top:30px;
-	}
+
 
 img { 
 max-width:100%;
@@ -174,71 +171,78 @@ img.alignnone {
 	margin-top: 1.625em;
 	margin-bottom: 1.625em;
 }
+
+/* --------- Header Section --------- */	
+
+header {
+	margin-top:30px;
+}
+
 	
-	#logo {
-		width:680px;
-		display:block;
-		margin:0 auto;
-	}
-	
-	#logo img {
-		display:block;
-		margin:0 auto;
-	}
+#logo {
+	width:680px;
+	display:block;
+	margin:0 auto;
+}
+
+#logo img {
+	display:block;
+	margin:0 auto;
+}
 
 
-	#content {
-		display:block;
-		width:900px;
-		margin:20px auto;
-	}
+#content {
+	display:block;
+	width:900px;
+	margin:20px auto;
+}
 	
-	.blog-entry {
-		width:900px;
-		margin-bottom:50px;
-	}
-	
-	.header-elements li {
-		padding:25px 0px;
-	}
+.blog-entry {
+	width:900px;
+	margin-bottom:50px;
+}
 
-	.nav-top {
-		position: relative;
-		display:block;
+.header-elements li {
+	padding:25px 0px;
+}
+
+.nav-top {
+	position: relative;
+	display:block;
 /*		overflow:auto; */
-		margin:30px 0px 20px 40px;
-	}
+	margin:30px 0px 20px 40px;
+}
 	
-	.nav-top li {
- 		position: relative;
-		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-		box-sizing: border-box;         /* Opera/IE 8+ */
-		float:left;
-		margin-right:20px;
-		padding:15px 12px;
-	}
+.nav-top li {
+	position: relative;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	float:left;
+	margin-right:20px;
+	padding:15px 12px;
+}
 	
-	.nav-top a {
-		border-bottom:5px solid #fafafa;
-		font-family:GeoSansLight;
-		font-size:18pt;
-		letter-spacing:4px;
-		padding:0px 5px 10px 5px;
-	}
+.nav-top a {
+	border-bottom:5px solid #fafafa;
+	font-family:GeoSansLight;
+	font-size:18pt;
+	letter-spacing:4px;
+	padding:0px 5px 10px 5px;
+}
 	
-	.nav-top a:hover {
-		border-bottom:5px solid #4bb99b;
-	}
+.nav-top a:hover {
+	border-bottom:5px solid #4bb99b;
+}
 
-	.nav-top ul {
-		position:absolute;
-		z-index: 40;
-		left:-9999px;
-		margin:16px 0px 0px 0px;
-		display:block;
-		background-color:rgba(255,255,255,0.7);
-	}
+.nav-top ul {
+	position:absolute;
+	z-index: 40;
+	left:-9999px;
+	margin:16px 0px 0px 0px;
+	display:block;
+	background-color:rgba(255,255,255,0.7);
+}
 
 	.nav-top ul li {
 		float:none;
@@ -256,19 +260,20 @@ img.alignnone {
 		letter-spacing:1px;
 	}
 
-	.nav-top li:hover ul {
-		left:7px;
-	}
+.nav-top li:hover ul {
+	left:7px;
+}
 
-	.nav-top li:hover ul a {
-		text-decoration: none;
-	}
+.nav-top li:hover ul a {
+	text-decoration: none;
+}
 
-	.nav-top li:hover ul li a:hover {
-		text-decoration: underline;
-		border:none;
-	}
+.nav-top li:hover ul li a:hover {
+	text-decoration: underline;
+	border:none;
+}
 
+/* --------- Post Header --------- */
 	.icon {
 		float:left;
 		display:block;
@@ -331,17 +336,19 @@ img.alignnone {
 		width:100px;
 		float:right;
 	}
+
+/* --------- Footer --------- */
 	
-	footer {
-		position: fixed;
-		bottom: 0px;
-		left:0px;
-		margin-top:50px;
-		display:none;
-		height:100px;
-		width:100%;
-		background-color: #fafafa;
-	}
+footer {
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+	margin-top:50px;
+	display:none;
+	height:100px;
+	width:100%;
+	background-color: #fafafa;
+}
 
 #footer-container {
 	display:block;

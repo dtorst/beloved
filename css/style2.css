@@ -1,0 +1,203 @@
+/*
+Theme Name: Beloved
+Theme URI: http://www.belovedhawaii.com
+Description: WordPress theme for belovedhawaii.com
+Version: 1
+Author: Sarah Magidoff and David Torstenson
+Author URI: http://www.mapsandlegends.co
+*/
+
+	@font-face {
+		font-family: GeoSansLight;
+		src: url('fonts/GeosansLight.ttf');
+	}
+	
+	@font-face {
+		font-family: ChaparralPro;
+		src: url('fonts/ChaparralPro-LightIt.otf');
+	}
+	
+	a {
+		color:#afafaf;
+		text-decoration:none;
+	}
+	
+	h2 {
+		font-family:GeoSansLight;
+		font-size:18pt;
+		letter-spacing:4px;
+	}
+	
+	h3 {
+		font-family:GeoSansLight;
+		font-size:13pt;
+		letter-spacing:4px;
+	}
+	
+	h4 {
+		font-family:ChaparralPro;
+		font-size:14pt;
+		letter-spacing:1px;
+	}
+	
+	p {
+		font-family:ChaparralPro;
+		font-size:12pt;	
+	}
+	
+	body {
+		color:#afafaf;
+		background-color:#fafafa;
+	}
+	
+	header {
+		margin-top:30px;
+		overflow:auto;
+	}
+	
+	#logo {
+		width:480px;
+		display:block;
+		margin:0 auto;
+	}
+	
+	#logo img {
+		display:block;
+		margin:0 auto;
+	}
+	.nav-top {
+		display:block;
+		overflow:auto;
+		margin:30px 0px 20px 40px;
+	}
+	
+	.clear {
+		clear:both;
+	}
+	
+	.nav-top li {
+ 
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */
+		float:left;
+		margin-right:20px;
+		padding:15px 12px;
+	}
+	
+	.nav-top a li {
+		border-bottom:4px solid #fafafa;
+	}
+	
+	.nav-top a li:hover {
+		border-bottom:4px solid #4bb99b;
+	}
+	
+	
+	#content {
+		display:block;
+		width:900px;
+		margin:20px auto;
+	}
+	
+	.blog-entry {
+		margin-bottom:50px;
+	}
+	
+	.header-elements li {
+		padding:25px 0px;
+	}
+
+	.icon {
+		float:left;
+		display:block;
+		width:25;
+		margin-top:0px;
+	}
+	
+	.tag {
+		float:left;
+		display:block;
+		width:25px;
+		margin:5px 40px 0px 20px;
+	}
+	
+	.title {
+		display:block;
+		width:600px;
+		text-align:center;
+		margin:0 auto;
+	}
+	.title h4 {
+		margin-top:5px;
+	}
+	
+	.date {
+		float:right;
+		display:block;
+		margin-top:5px;
+/*		margin-left:255px; */
+	}
+	
+	.blog-header {
+		height:85px;
+		background-image:url('img/elements/grey-thin.png');
+		background-repeat:repeat-x;
+		background-position:0px 65px;
+	}
+	
+	.blog-text {
+		line-height:16pt;
+		text-align:justify;
+		text-justify:inter-word;
+		margin-top:30px;
+		margin-bottom:20px;
+	}
+	
+	#content-nav {
+		width:35%;
+		display:block;
+		margin:0 auto;
+	}
+	
+	.older {
+		width:100px;
+		float:left;
+	}
+	
+	.newer {
+		width:100px;
+		float:right;
+	}
+	
+	footer {
+		margin-top:30px;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+		height:175px;
+		width:900px;
+		background-image:url('img/elements/grey-thin.png');
+		background-repeat:repeat-x;
+		background-position:0px 65px;
+	}
+	
+	#footer-menu li {
+		float:left;
+		padding:10px 8px 10px 8px;
+		text-align:center;
+		margin:40px 25px 0px 25px;
+		border-bottom:4px solid #fafafa;
+	}
+	
+	#footer-menu a li:hover {
+		border-bottom:4px solid #4bb99b;
+	}
+	
+	#footer-menu {
+		height:60px;
+		width:400px;
+		display:block;
+		text-align:center;
+		margin-top:30px;
+	}

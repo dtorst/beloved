@@ -1,0 +1,440 @@
+/*
+Theme Name: Beloved
+Theme URI: http://www.mybelovd.com
+Description: WordPress theme for belovedhawaii.com
+Version: 1
+Author: Sarah Magidoff and David Torstenson
+Author URI: http://www.mapsandlegends.co
+*/
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+	@font-face {
+		font-family: GeoSansLight;
+		src: url('css/fonts/GeosansLight.ttf');
+	}
+	
+	@font-face {
+		font-family: ChaparralPro-LightIt;
+		src: url('css/fonts/ChaparralPro-LightIt.otf');
+	}
+	
+	a {
+		color:#afafaf;
+		text-decoration:none;
+	}
+	
+	h2 {
+		font-family:GeoSansLight;
+		font-size:18pt;
+		letter-spacing:4px;
+	}
+	
+	h3 {
+		font-family:GeoSansLight;
+		font-size:13pt;
+		letter-spacing:4px;
+	}
+	
+	h4 {
+		font-family:ChaparralPro-LightIt;
+		font-size:14pt;
+		letter-spacing:1px;
+	}
+	
+	p {
+		font-family:ChaparralPro-LightIt;
+		font-size:12pt;	
+	}
+	
+	body {
+		color:#afafaf;
+		background-color:#fafafa;
+	}
+
+	.clear {
+		clear:both;
+	}
+	
+	header {
+		margin-top:30px;
+	}
+
+img { 
+max-width:100%;
+height:auto;
+}
+
+/* --------- Alignment --------- */
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.625em;
+}
+
+img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.625em;
+	margin-top: 1.625em;
+	margin-bottom: 1.625em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.625em;
+}
+
+img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.625em;
+	margin-top: 1.625em;
+	margin-bottom: 1.625em;
+}
+
+.sticky {
+	
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+margin-top: 1.625em;
+	margin-bottom: 1.625em;
+}
+
+img.alignnone {
+	display: block;
+	clear: both;
+	margin-top: 1.625em;
+	margin-bottom: 1.625em;
+}
+	
+	#logo {
+		width:680px;
+		display:block;
+		margin:0 auto;
+	}
+	
+	#logo img {
+		display:block;
+		margin:0 auto;
+	}
+
+
+	#content {
+		display:block;
+		width:900px;
+		margin:20px auto;
+	}
+	
+	.blog-entry {
+		width:900px;
+		margin-bottom:50px;
+	}
+	
+	.header-elements li {
+		padding:25px 0px;
+	}
+
+	.nav-top {
+		position: relative;
+		display:block;
+/*		overflow:auto; */
+		margin:30px 0px 20px 40px;
+	}
+	
+	.nav-top li {
+ 		position: relative;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */
+		float:left;
+		margin-right:20px;
+		padding:15px 12px;
+	}
+	
+	.nav-top a {
+		border-bottom:5px solid #fafafa;
+		font-family:GeoSansLight;
+		font-size:18pt;
+		letter-spacing:4px;
+		padding:0px 5px 10px 5px;
+	}
+	
+	.nav-top a:hover {
+		border-bottom:5px solid #4bb99b;
+	}
+
+	.nav-top ul {
+		position:absolute;
+		z-index: 40;
+		left:-9999px;
+		margin:16px 0px 0px 0px;
+		display:block;
+		background-color:rgba(255,255,255,0.7);
+	}
+
+	.nav-top ul li {
+		float:none;
+		margin-right: 10px;
+		padding: 10px 10px 0px 10px;
+	}
+
+	.nav-top ul a {
+		display: block;
+		border:none;
+		width: 100%;
+		text-align:center;
+		font-family:ChaparralPro-LightIt;
+		font-size:13pt;
+		letter-spacing:1px;
+	}
+
+	.nav-top li:hover ul {
+		left:7px;
+	}
+
+	.nav-top li:hover ul a {
+		text-decoration: none;
+	}
+
+	.nav-top li:hover ul li a:hover {
+		text-decoration: underline;
+		border:none;
+	}
+
+	.icon {
+		float:left;
+		display:block;
+		width:25;
+		margin-top:0px;
+	}
+	
+	.tag {
+		float:left;
+		display:block;
+		width:25px;
+		margin:5px 40px 0px 20px;
+		text-transform:uppercase;
+	}
+	
+	.title {
+		display:block;
+		width:600px;
+		text-align:center;
+		margin:0 auto;
+	}
+	.title h4 {
+		margin-top:5px;
+	}
+	
+	.date {
+		float:right;
+		display:block;
+		margin-top:5px;
+/*		margin-left:255px; */
+	}
+	
+	.blog-header {
+		height:85px;
+		background-image:url('css/img/elements/grey-thin.png');
+		background-repeat:repeat-x;
+		background-position:0px 65px;
+	}
+	
+	.blog-text {
+		line-height:16pt;
+		text-align:justify;
+		text-justify:inter-word;
+		margin-top:30px;
+		margin-bottom:20px;
+	}
+	
+	#content-nav {
+		width:35%;
+		display:block;
+		margin:0 auto;
+	}
+	
+	.older {
+		width:100px;
+		float:left;
+	}
+	
+	.newer {
+		width:100px;
+		float:right;
+	}
+	
+	footer {
+		position: fixed;
+		bottom: 0px;
+		left:0px;
+		margin-top:50px;
+		display:none;
+		height:100px;
+		width:100%;
+		background-color: #fafafa;
+	}
+
+#footer-container {
+	display:block;
+	width:900px;
+	margin:0 auto;
+	height:95px;
+	background-image:url('css/img/elements/grey-thin.png');
+	background-repeat:repeat-x;
+	background-position:0px 0px;
+
+}
+
+#search-div {
+	float:left;
+	margin-top:40px;
+}
+
+.search-sidebar {
+	height:20px;
+	width:170px;
+	background-image:url('img/search-icon.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+	#social-menu {
+		height:60px;
+		width:220px;
+		display:block;
+		margin-top:30px;
+		float:left;
+	}
+
+#social-menu li {
+		float:left;
+		margin:10px;
+		height:31px;
+		width:31px;
+	}
+
+.social {
+	background-image:url('img/social-icons.png');
+}
+
+#twitter {
+	background-position: -3px -33px;
+}
+
+#twitter:hover {
+	background-position: -3px -1px;
+}
+
+#instagram {
+	background-position: -36px -33px;
+}
+
+#instagram:hover {
+	background-position: -36px -1px;
+}
+
+#pinterest {
+	background-position: -70px -33px;
+}
+
+#pinterest:hover {
+	background-position: -70px -1px;
+}
+
+#bloglovin {
+	background-position: -104px -33px;
+}
+
+#bloglovin:hover {
+	background-position: -104px -1px;
+}
+
+	#footer-menu li {
+		float:left;
+		padding:10px 8px 10px 8px;
+		text-align:center;
+		margin:5px 15px 0px 15px;
+		border-bottom:4px solid #fafafa;
+	}
+	
+	#footer-menu a li:hover {
+		border-bottom:4px solid #4bb99b;
+	}
+	
+	#footer-menu {
+		height:60px;
+		width:500px;
+		display:block;
+		text-align:center;
+		margin-top:30px;
+		float:left;
+	}

@@ -33,5 +33,8 @@ $(document).scroll(function () {
 });
 
 </script>
+
+</div><!--/main-->
+</div><!--/main-controller-->
 </body>
 </html>

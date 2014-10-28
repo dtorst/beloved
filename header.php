@@ -22,12 +22,13 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-
+<div class="main-container" style="margin:0px;padding:0px;background-color:#363636;width:100%;display:block;">
+	<div class="main" style="margin:0 auto;width:82%;height:100%;background-color:#fafafa;display:block;">
 	<header>
 		<div id="logo">
-			<a href="http://mapsandlegends.co/beloved"><img src="http://mapsandlegends.co/beloved/wp-content/themes/beloved/img/main-logo.jpg" width="380" height="380" alt="Main Logo" style="padding-right:20px;"></a>
+			<a href="http://mapsandlegends.co/beloved"><img src="wp-content/themes/beloved/img/beloved-logo.jpg" width="290" height="290" alt="Main Logo"></a>
 			<ul class="nav-top">
-				<li><a href="http://mapsandlegends.co/beloved">BLOG</a>
+				<li><a href="/">BLOG</a>
 					<ul>
 						<li><a href="http://mapsandlegends.co/beloved/category/move">move</a></li>
 						<li><a href="http://mapsandlegends.co/beloved/category/nourish">nourish</a></li>
@@ -36,7 +37,8 @@
 				</li>
 				<li><a href="http://mapsandlegends.co/beloved/about">ABOUT</a></li>
 				<li><a href="http://mapsandlegends.co/beloved/market">MARKET</a></li>
-				<li style="margin-right:0px;"><a href="http://mapsandlegends.co/beloved/connect">CONNECT</a></li>
+				<li><a href="http://mapsandlegends.co/beloved/connect">CONNECT</a></li>
+				<li><a href="#">EN</a> / <a href="#">SP</a></li>
 			</ul>
 		</div>
 	</header><div class="clear"></div>

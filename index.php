@@ -6,6 +6,13 @@
 
 <div class="blog-entry" <?php post_class(); ?>>
 	<div class="blog-header">
+	</div><!--/blog-header-->
+	
+
+	
+	<?php the_content( __( '<br><u>Read more</u>', 'simplestyle' ) ); ?>
+
+</div><!--/blog-entry-->
 		<ul class="header-elements">
 			<li class="icon">
 				<?php
@@ -22,14 +29,7 @@
 			<li class="date"><h3><?php the_date(); ?></h3></li>
 			<li class="title"><h4><a href="<?php esc_url( the_permalink() ); ?>"><?php the_title(); ?></a></h4></li>
 		</ul>
-	</div><!--/blog-header-->
-	
-
-	
-	<?php the_content( __( '<br><u>Read more</u>', 'simplestyle' ) ); ?>
-	
-</div><!--/blog-entry-->
-	
+			
 	<?php endwhile; ?> 
 	<?php endif; ?>
 	<br><br><br><br>

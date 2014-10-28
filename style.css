@@ -175,12 +175,13 @@ img.alignnone {
 /* --------- Header Section --------- */	
 
 header {
-	margin-top:30px;
+	margin-top:0px;
+	padding-top: 50px;
 }
 
 	
 #logo {
-	width:680px;
+	width:720px;
 	display:block;
 	margin:0 auto;
 }
@@ -192,13 +193,18 @@ header {
 
 
 #content {
+	position: relative;
 	display:block;
-	width:900px;
+	width: 100%
+}
+
+#container {
 	margin:20px auto;
+	width:80%;
 }
 	
 .blog-entry {
-	width:900px;
+	width:100%;
 	margin-bottom:50px;
 }
 
@@ -210,7 +216,7 @@ header {
 	position: relative;
 	display:block;
 /*		overflow:auto; */
-	margin:30px 0px 20px 40px;
+	margin:40px 0px 20px 20px;
 }
 	
 .nav-top li {
@@ -219,20 +225,20 @@ header {
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	float:left;
-	margin-right:20px;
+	margin-right:10px;
 	padding:15px 12px;
 }
 	
 .nav-top a {
-	border-bottom:5px solid #fafafa;
+	color:#afafaf;
 	font-family:GeoSansLight;
-	font-size:18pt;
-	letter-spacing:4px;
+	font-size:14pt;
+	letter-spacing:0.3em;
 	padding:0px 5px 10px 5px;
 }
-	
-.nav-top a:hover {
-	border-bottom:5px solid #4bb99b;
+
+.nav-top a:hover, a:active {
+	color:#737373;
 }
 
 .nav-top ul {
@@ -241,22 +247,24 @@ header {
 	left:-9999px;
 	margin:16px 0px 0px 0px;
 	display:block;
-	background-color:rgba(255,255,255,0.7);
+	background-color:rgba(226,226,226,0.7);
 }
 
 	.nav-top ul li {
-		float:none;
-		margin-right: 10px;
-		padding: 10px 10px 0px 10px;
+		float:left;
+		margin-right: 5px;
+		text-align:center !important;
+		padding: 5px 10px 0px 5px;
 	}
 
-	.nav-top ul a {
+	.nav-top ul li a {
 		display: block;
 		border:none;
 		width: 100%;
-		text-align:center;
+		color:#737373;
+		text-align:center !important;
 		font-family:ChaparralPro-LightIt;
-		font-size:13pt;
+		font-size:12pt;
 		letter-spacing:1px;
 	}
 
@@ -307,10 +315,10 @@ header {
 	}
 	
 	.blog-header {
-		height:85px;
+		height:25px;
 		background-image:url('css/img/elements/grey-thin.png');
 		background-repeat:repeat-x;
-		background-position:0px 65px;
+		background-position:0px 23px;
 	}
 	
 	.blog-text {

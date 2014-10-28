@@ -20,7 +20,7 @@
 </footer>
 <?php wp_footer(); ?>
 
-<!--<div class="new-footer"></div> -->
+<!--<div class="new-footer"></div> --
 <script>
 $(document).scroll(function () {
     var y = $(this).scrollTop();
@@ -32,7 +32,7 @@ $(document).scroll(function () {
 
 });
 
-</script>
+</script> -->
 
 </div><!--/main-->
 </div><!--/main-controller-->

@@ -71,6 +71,11 @@ table {
 		font-family: ChaparralPro-LightIt;
 		src: url('css/fonts/ChaparralPro-LightIt.otf');
 	}
+
+	@font-face {
+		font-family: Futura;
+		src: url('css/fonts/Futura.tcc');
+	}
 	
 	a {
 		color:#afafaf;
@@ -85,14 +90,25 @@ table {
 	
 	h3 {
 		font-family:GeoSansLight;
-		font-size:13pt;
+		font-size:12pt;
 		letter-spacing:4px;
+		color:#585858;
+	}
+
+	h3 a {	
+		color:#585858;
 	}
 	
 	h4 {
-		font-family:ChaparralPro-LightIt;
-		font-size:14pt;
-		letter-spacing:1px;
+		font-family:Futura;
+		font-size:11pt;
+		letter-spacing:3px;
+		color:#585858;
+		text-transform: uppercase;
+	}
+
+	h4 a {
+		color:#585858;
 	}
 	
 	p {
@@ -161,8 +177,8 @@ img.aligncenter {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-margin-top: 1.625em;
-	margin-bottom: 1.625em;
+margin-top: 0.75em;
+	margin-bottom: 0.75em;
 }
 
 img.alignnone {
@@ -199,17 +215,17 @@ header {
 }
 
 #container {
-	margin:20px auto;
-	width:80%;
+	margin:50px auto;
+	width:75%;
 }
 	
 .blog-entry {
 	width:100%;
-	margin-bottom:50px;
+	margin-bottom:80px;
 }
 
 .header-elements li {
-	padding:25px 0px;
+	padding:15px 0px 10px 0px;
 }
 
 .nav-top {
@@ -285,7 +301,7 @@ header {
 	.icon {
 		float:left;
 		display:block;
-		width:25;
+		width:30px;
 		margin-top:0px;
 	}
 	
@@ -318,7 +334,7 @@ header {
 		height:25px;
 		background-image:url('css/img/elements/grey-thin.png');
 		background-repeat:repeat-x;
-		background-position:0px 23px;
+		background-position:0px 8px;
 	}
 	
 	.blog-text {
@@ -343,6 +359,14 @@ header {
 	.newer {
 		width:100px;
 		float:right;
+	}
+
+	.more-link {
+		display:block;
+		text-align: center;
+		font-size: 11pt;
+		letter-spacing: 3px;
+		color:#585858;
 	}
 
 /* --------- Footer --------- */

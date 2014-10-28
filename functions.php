@@ -72,6 +72,8 @@ function simplestyle_nav() {
 }
 add_action('init', 'simplestyle_nav');
 
+add_theme_support( 'post-thumbnails' );
+
 
 // Admin Styles
 

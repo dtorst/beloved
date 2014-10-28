@@ -23,7 +23,7 @@
 </head>
 <body <?php body_class(); ?>>
 <div class="main-container" style="margin:0px;padding:0px;background-color:#363636;width:100%;display:block;">
-	<div class="main" style="margin:0 auto;width:82%;height:100%;background-color:#fafafa;display:block;">
+	<div class="main" style="margin:0 auto;width:1050px;height:100%;background-color:#fafafa;display:block;">
 	<header>
 		<div id="logo">
 			<a href="http://mapsandlegends.co/beloved"><img src="wp-content/themes/beloved/img/beloved-logo.jpg" width="290" height="290" alt="Main Logo"></a>

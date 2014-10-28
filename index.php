@@ -17,7 +17,7 @@
 			echo '<img src="wp-content/themes/beloved/img/icons/nourish.png" width="30" height="30" alt="Nutrition Icon">';
 					} else if ( in_category( '2')) {
 			echo '<img src="wp-content/themes/beloved/img/icons/move.png" width="30" height="30" alt="Movement Icon">';
-					} else if ( in_category('4')) {
+					} else if ( in_category('5')) {
 			echo '<img src="wp-content/themes/beloved/img/icons/yonder.png" width="30" height="30" alt="Inspiration Icon">';
 					}
 				 ?>

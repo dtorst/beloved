@@ -445,12 +445,34 @@ header {
 	
 	#content-nav {
 		width:790px;
-		height:40px;
+		height:25px;
+		padding-top: 2px;
 		background-color:rgba(226,226,226,0.7);
 		display:block;
 		margin:0 auto;
 	}
-	
+
+
+.navigation {
+	padding: 5px;
+	width:30%;
+	margin: 0 auto;
+}
+
+.wp-paginate {
+	font-family:GeoSansLight;
+	font-size:12pt;
+	letter-spacing:4px;
+	color:#585858;
+	min-width: 20px;
+}
+
+.wp-paginate a {
+	border:none !important;
+	background:none !important;
+}
+
+	/*
 	.older {
 		width:100px;
 		float:right;
@@ -460,7 +482,18 @@ header {
 	.older a:hover {
 		color:#343434;
 	}
-	
+*/
+	.next {
+		width:100px;
+		float:right;
+	}
+
+	.next a:hover {
+		color:#343434;
+	}
+
+
+/*
 	.newer {
 		width:120px;
 		float:left;
@@ -468,6 +501,15 @@ header {
 	}
 
 	.newer a:hover {
+		color:#343434;
+	}
+*/
+	.prev {
+		width:120px;
+		float:left;
+	}
+
+	.prev a:hover {
 		color:#343434;
 	}
 

@@ -34,8 +34,17 @@
 	<?php endwhile; ?> 
 	<?php endif; ?>
 	<footer>
-		<div id="content-nav">
-			<h3 class="newer"><a href="">&lt;&lt; NEWER</a></h3>
-			<h3 class="older"><a href="">OLDER >></a></h3>
-		</div><!--/content-nav -->
+<ul id="content-nav">
+<li style="padding:5px 0px 0px 10px;float:left;display:block;height:30px;width:110px;"><?php previous_posts_link('<h3 style="color:#585858;"><< NEWER</h3>'); ?></li>
+<li style="width:550px;height:30px;float:left;"><?php if(function_exists('wp_paginate')) {
+    wp_paginate();
+}
+else {
+
+}
+?></li>
+<li style="padding:5px 0px 0px 0px;float:right;display:block;height:30px;width:110px;"><?php next_posts_link('<h3 style="color:#585858;">OLDER >></h3>') ?></li>
+
+		</ul><!--/content-nav -->
+		<div class="clear"></div>
 	<?php get_footer(); ?>

@@ -38,7 +38,7 @@
 				<li><a href="http://mapsandlegends.co/beloved/about">ABOUT</a></li>
 				<li><a href="http://mapsandlegends.co/beloved/market">MARKET</a></li>
 				<li><a href="http://mapsandlegends.co/beloved/connect">CONNECT</a></li>
-				<li><a href="#">EN</a> / <a href="#">SP</a></li>
+				<li><a href="#">EN</a>&nbsp;/&nbsp;<a href="#">SP</a></li>
 			</ul>
 		</div>
 	</header><div class="clear"></div>

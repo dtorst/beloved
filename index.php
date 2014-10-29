@@ -36,6 +36,11 @@
 	<br><br><br><br>
 		<footer>
 	 <div id="content-nav">
+
+
+<h3 class="newer">&lt;&lt; NEWER</h3>
+<h3 class="older">OLDER >></h3>
+<!-- killing this for now, until we have enough content to constitute -->
 	
 	 <?php next_posts_link('<h3 class="older">&lt;&lt; OLDER</h3>') ?>
 	 

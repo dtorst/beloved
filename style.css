@@ -112,8 +112,12 @@ table {
 	}
 	
 	p {
-		font-family:ChaparralPro-LightIt;
-		font-size:12pt;	
+		font-family:GeoSansLight;
+		font-size:11pt;	
+		letter-spacing: 2px;
+		color: #afafaf;
+		line-height: 16pt;
+		text-align: justify;
 	}
 	
 	body {
@@ -130,6 +134,45 @@ img {
 max-width:100%;
 height:auto;
 }
+
+
+/* ----------- Page-Specific Content ------------ */
+
+
+.coming-soon {
+	font-size: 28pt;
+	letter-spacing: 4px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.connect-main {
+	text-transform: uppercase;
+	font-family: Futura;
+	width: 70%;
+	margin: 0 auto;
+	color:#585858;
+	line-height: 22pt;
+	letter-spacing: 4px;
+}
+
+.connect-info {
+	margin-top:30px;
+	font-family:ChaparralPro-LightIt;
+	font-style: oblique;
+	color:#585858;
+}
+
+.divider {
+	letter-spacing: -3px;
+}
+
+.email {
+	font-family: Futura;
+	font-style: normal;
+	text-decoration: underline;
+	font-size: 10pt;
+}
+
 
 /* --------- Alignment --------- */
 
@@ -219,7 +262,7 @@ header {
 }
 
 #container {
-	margin:80px auto 40px auto;
+	margin:60px auto 40px auto;
 	width:790px;
 }
 	
@@ -348,6 +391,14 @@ header {
 		-webkit-font-smoothing: antialiased;
 		margin-top:5px;
 	}
+
+	.page-title {
+		display:block;
+		padding-top:13px;
+		width:600px;
+		text-align:center;
+		margin:0 auto;
+	}
 	
 	.date {
 		float:right;
@@ -364,6 +415,22 @@ header {
 		background-position:0px 8px;
 	}
 	
+
+	.page-header {
+		height:40px;
+		border-top: 1px solid #afafaf;
+		border-bottom: 1px solid #afafaf;
+		margin-bottom: 60px;
+	}
+
+	.page-footer {
+		display:block;
+		margin:60px auto 0px auto;
+		width:790px;
+		height:20px;
+		border-top: 1px solid #afafaf;
+	}
+
 	.blog-text {
 		line-height:16pt;
 		text-align:justify;
@@ -385,11 +452,19 @@ header {
 		float:right;
 		padding: 12px 5px 10px 0px;
 	}
+
+	.older a:hover {
+		color:#343434;
+	}
 	
 	.newer {
 		width:120px;
 		float:left;
 		padding: 12px 0px 10px 5px;
+	}
+
+	.newer a:hover {
+		color:#343434;
 	}
 
 	.more-link {
@@ -404,9 +479,7 @@ header {
 /* --------- Footer --------- */
 	
 footer {
-	position: absolute;
-	bottom: 0px;
-	left:0px;
+
 	margin-top:50px;
 	display:block;
 	height:100px;

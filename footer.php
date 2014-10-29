@@ -1,4 +1,4 @@
-</div><div class="clear"></div>
+
 <div id="footer-container">
 	<ul id="social-menu">
 		<a href=""><li class="social" id="feedly"></li></a>
@@ -11,11 +11,11 @@
 		<?php get_search_form(); ?>
 	</div><!--/search-div -->
 </div><!--/footer-container -->
-	</div><!--/content-nav -->
 </footer>
-<?php wp_footer(); ?>
-
 		</div><!--/main-->
 	</div><!--/main-controller-->
+
+<?php wp_footer(); ?>
+
 </body>
 </html>

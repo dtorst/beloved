@@ -20,8 +20,6 @@
 	<div id="border-bottom"></div>
 -->
 <div class="blog-entry" <?php post_class(); ?>>
-	<div class="blog-header">
-	</div><!--/blog-header-->
 
 		<ul class="header-elements">
 			<li class="icon">
@@ -40,6 +38,9 @@
 			<li class="title"><h4><a href="<?php esc_url( the_permalink() ); ?>"><?php the_title(); ?></a></h4></li>
 		</ul>
 
+	<div class="blog-header">
+	</div><!--/blog-header-->
+
 	<?php the_content( __( '<br>read more', 'simplestyle' ) ); ?>
 
 </div><!--/blog-entry-->
@@ -51,10 +52,13 @@
 	 <div id="content-nav">
 
 
+
+<!-- killing this for now, until we have enough content to constitute --
 <h3 class="newer">&lt;&lt; NEWER</h3>
 <h3 class="older">OLDER >></h3>
-<!-- killing this for now, until we have enough content to constitute -->
-	
+-->
+
+
 	 <?php next_posts_link('<h3 class="older">&lt;&lt; OLDER</h3>') ?>
 	 
 	 <?php previous_posts_link('<h3 class="newer">NEWER >></h3>'); ?>

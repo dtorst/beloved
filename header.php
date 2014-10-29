@@ -28,7 +28,7 @@
 		<div id="logo">
 			<a href="http://mapsandlegends.co/beloved"><div class="logo-img"></div></a>
 			<ul class="nav-top">
-				<li><a href="./">BLOG</a>
+				<li><a href="http://mapsandlegends.co/beloved">BLOG</a>
 					<ul>
 						<li><a href="http://mapsandlegends.co/beloved/category/move">move</a></li>
 						<li><a href="http://mapsandlegends.co/beloved/category/nourish">nourish</a></li>

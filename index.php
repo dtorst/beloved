@@ -14,11 +14,11 @@
 			<li class="icon">
 				<?php
 					if ( in_category( '3')) {
-			echo '<img src="wp-content/themes/beloved/img/icons/nourish.png" width="30" height="30" alt="Nutrition Icon">';
+			echo '<div class="nourish-icon"></div>';
 					} else if ( in_category( '2')) {
-			echo '<img src="wp-content/themes/beloved/img/icons/move.png" width="30" height="30" alt="Movement Icon">';
+			echo '<div class="movement-icon"></div>';
 					} else if ( in_category('5')) {
-			echo '<img src="wp-content/themes/beloved/img/icons/yonder.png" width="30" height="30" alt="Inspiration Icon">';
+			echo '<div class="yonder-icon"></div>';
 					}
 				 ?>
 			</li>

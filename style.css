@@ -202,9 +202,13 @@ header {
 	margin:0 auto;
 }
 
-#logo img {
+.logo-img {
+	margin: 0 auto;
 	display:block;
-	margin:0 auto;
+	width:290px;
+	height:290px;
+	background-image: url(img/beloved-logo.jpg);
+	background-repeat: no-repeat;
 }
 
 
@@ -226,6 +230,26 @@ header {
 
 .header-elements li {
 	padding:15px 0px 10px 0px;
+}
+
+.nourish-icon {
+	width:30px;
+	height:30px;
+	display:block;
+	background-image:url(img/icons/nourish.png);
+}
+.movement-icon {
+	width:30px;
+	height:30px;
+	display:block;
+	background-image:url(img/icons/move.png);
+}
+
+.yonder-icon {
+	width:30px;
+	height:30px;
+	display:block;
+	background-image:url(img/icons/yonder.png);
 }
 
 .nav-top {
@@ -454,7 +478,7 @@ footer {
 }
 
 #pinterest:hover {
-	background-position: -70px -1px;
+	background-position: -70px 0px;
 }
 
 #bloglovin {

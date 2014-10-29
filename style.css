@@ -481,7 +481,44 @@ header {
 	}
 
 /* --------- Footer --------- */
-	
+
+.positioner {
+	position:absolute;
+	right:0;
+	width:110px;
+	height:110px;
+}
+
+.top {
+	position: fixed;
+	cursor: pointer;
+	bottom: 60px;
+	margin-left:30px;
+	display:none;
+	padding-top: 5px;
+	height:40px;
+	width:40px;
+	background-color: #fafafa;
+	font-family: GeoSansLight;
+	font-size: 11pt;
+	color:#585858;
+	line-height: 10pt;
+	letter-spacing:4px;
+	text-align: center;
+}
+
+
+.top-a {
+	position:absolute;
+	display:block;
+	bottom:0px;
+	right:100px;
+	width:80px;
+	height:80px;
+	font-size: 18pt;
+	color:red;
+}
+
 footer {
 
 	margin-top:50px;

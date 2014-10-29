@@ -1,4 +1,3 @@
-
 <div id="footer-container">
 	<ul id="social-menu">
 		<a href=""><li class="social" id="feedly"></li></a>
@@ -17,10 +16,34 @@
 
 <?php wp_footer(); ?>
 <script type="text/javascript">
+
 $(function() {
-  $('.nav-top a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+     var pgurl = window.location.href.substr(window.location.href
+.lastIndexOf("/")+1);
+     console.log(pgurl);
+     $(".nav-top a").each(function(){
+          if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
+          $(this).addClass("active");
+     })
 });
 
 </script>
+<script>
+$(document).ready(function(){
+    $('.top').on('click', function(){
+        $('html,body').animate({scrollTop: 0}, 800);
+    }); 
+});  
+$(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 475) {
+        $('.top').slideDown();
+    } else {
+        $('.top').slideUp();
+    }
+});
+
+</script>
+
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="positioner"><div class="top"><span style="font-size:18pt !important;">^</span><br>UP</div></div>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	

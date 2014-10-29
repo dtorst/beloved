@@ -28,11 +28,11 @@
 		<div id="logo">
 			<a href="http://mapsandlegends.co/beloved"><div class="logo-img"></div></a>
 			<ul class="nav-top">
-				<li><a href="/">BLOG</a>
+				<li><a href="./">BLOG</a>
 					<ul>
-						<li><a href="category/move">move</a></li>
-						<li><a href="category/nourish">nourish</a></li>
-						<li><a href="category/yonder">yonder</a></li>
+						<li><a href="./category/move">move</a></li>
+						<li><a href="./category/nourish">nourish</a></li>
+						<li><a href="./category/yonder">yonder</a></li>
 					</ul><!--/rollover-menu-->
 				</li>
 				<li><a href="./about">ABOUT</a></li>

@@ -36,7 +36,7 @@
 					</ul><!--/rollover-menu-->
 				</li>
 				<li><a href="http://mapsandlegends.co/beloved/about">ABOUT</a></li>
-				<li><a href=".http://mapsandlegends.co/beloved/market">MARKET</a></li>
+				<li><a href="http://mapsandlegends.co/beloved/market">MARKET</a></li>
 				<li><a href="http://mapsandlegends.co/beloved/connect">CONNECT</a></li>
 				<li><a href="#">EN</a>&nbsp;/&nbsp;&nbsp;<a href="#">SP</a></li>
 			</ul>

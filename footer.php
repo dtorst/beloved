@@ -16,6 +16,11 @@
 	</div><!--/main-controller-->
 
 <?php wp_footer(); ?>
+<script type="text/javascript">
+$(function() {
+  $('.nav-top a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+});
 
+</script>
 </body>
 </html>

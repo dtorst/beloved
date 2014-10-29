@@ -324,6 +324,10 @@ header {
 	color:#737373;
 }
 
+.active {
+	color:#737373 !important;
+}
+
 .nav-top ul {
 	position:absolute;
 	z-index: 40;

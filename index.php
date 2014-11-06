@@ -14,11 +14,11 @@
 			<li class="icon">
 				<?php
 					if ( in_category( '3')) {
-			echo '<div class="nourish-icon"></div>';
+			echo '<a href="http://mapsandlegends.co/beloved/category/nourish"><div class="nourish-icon"></div></a>';
 					} else if ( in_category( '2')) {
-			echo '<div class="movement-icon"></div>';
+			echo '<a href="http://mapsandlegends.co/beloved/category/move"><div class="movement-icon"></div></a>';
 					} else if ( in_category('5')) {
-			echo '<div class="yonder-icon"></div>';
+			echo '<a href="http://mapsandlegends.co/beloved/category/yonder"><div class="yonder-icon"></div></a>';
 					}
 				 ?>
 			</li>
@@ -35,15 +35,15 @@
 	<?php endif; ?>
 	<footer>
 <ul id="content-nav">
-<li style="padding:5px 0px 0px 10px;float:left;display:block;height:30px;width:110px;"><?php previous_posts_link('<h3 style="color:#585858;"><< NEWER</h3>'); ?></li>
-<li style="width:550px;height:30px;float:left;"><?php if(function_exists('wp_paginate')) {
+<li class="prev"><?php previous_posts_link('<h3><< NEWER</h3>'); ?></li>
+<li class="page-numbers"><?php if(function_exists('wp_paginate')) {
     wp_paginate();
 }
 else {
 
 }
 ?></li>
-<li style="padding:5px 0px 0px 0px;float:right;display:block;height:30px;width:110px;"><?php next_posts_link('<h3 style="color:#585858;">OLDER >></h3>') ?></li>
+<li class="next"><?php next_posts_link('<h3>OLDER >></h3>') ?></li>
 
 		</ul><!--/content-nav -->
 		<div class="clear"></div>

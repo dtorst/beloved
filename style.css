@@ -279,20 +279,36 @@ header {
 	width:30px;
 	height:30px;
 	display:block;
-	background-image:url(img/icons/nourish.png);
+	background-image:url(img/icons/category-sprite.png);
+	background-position: -60px 0px;
 }
+
+.nourish-icon:hover {
+	background-position: -60px -30px;
+}
+
 .movement-icon {
 	width:30px;
 	height:30px;
 	display:block;
-	background-image:url(img/icons/move.png);
+	background-image:url(img/icons/category-sprite.png);
+	background-position: -30px 0px;
+}
+
+.movement-icon:hover {
+	background-position: -30px -30px;
 }
 
 .yonder-icon {
 	width:30px;
 	height:30px;
 	display:block;
-	background-image:url(img/icons/yonder.png);
+	background-image:url(img/icons/category-sprite.png);
+	background-position: 0px 0px;
+}
+
+.yonder-icon:hover {
+	background-position: 0px -30px;
 }
 
 .nav-top {
@@ -487,44 +503,42 @@ header {
 .wp-paginate-comments .prev, .wp-paginate-comments .next {}
 
 
-	/*
-	.older {
-		width:100px;
-		float:right;
-		padding: 12px 5px 10px 0px;
-	}
+.page-numbers {
+	width:550px;
+	height:30px;
+	float:left;
+}
 
-	.older a:hover {
-		color:#343434;
-	}
-*/
 	.next {
-		width:100px;
+		padding:5px 0px 0px 0px;
 		float:right;
+		display:block;
+		height:30px;
+		width:110px;
 	}
 
-	.next a:hover {
+	.next h3 {
+		color:#585858;
+	}
+
+	.next h3:hover {
 		color:#000;
 	}
 
 
-/*
-	.newer {
-		width:120px;
-		float:left;
-		padding: 12px 0px 10px 5px;
-	}
-
-	.newer a:hover {
-		color:#343434;
-	}
-*/
 	.prev {
-		width:120px;
+		padding:5px 0px 0px 10px;
 		float:left;
+		display:block;
+		height:30px;
+		width:110px;"
 	}
 
-	.prev a:hover {
+	.prev h3 {
+		color:#585858;
+	}
+
+	.prev h3:hover {
 		color:#000;
 	}
 
@@ -535,6 +549,10 @@ header {
 		letter-spacing: 3px;
 		color:#585858;
 		-webkit-font-smoothing: antialiased;
+	}
+
+	.more-link:hover {
+		color:#000;
 	}
 
 /* --------- Footer --------- */
@@ -620,8 +638,8 @@ footer {
 #social-menu li {
 		float:left;
 		margin:10px;
-		height:32px;
-		width:32px;
+		height:23px;
+		width:23px;
 	}
 
 .social {
@@ -629,35 +647,35 @@ footer {
 }
 
 #feedly {
-	background-position: -3px -33px;
+	background-position: 0px -23px;
 }
 
 #feedly:hover {
-	background-position: -3px -1px;
+	background-position: 0px 0px;
 }
 
 #instagram {
-	background-position: -36px -33px;
+	background-position: -23px -23px;
 }
 
 #instagram:hover {
-	background-position: -36px -1px;
+	background-position: -23px 0px;
 }
 
 #pinterest {
-	background-position: -70px -33px;
+	background-position: -46px -23px;
 }
 
 #pinterest:hover {
-	background-position: -70px 0px;
+	background-position: -46px 0px;
 }
 
 #bloglovin {
-	background-position: -106px -33px;
+	background-position: -69px -23px;
 }
 
 #bloglovin:hover {
-	background-position: -106px -1px;
+	background-position: -69px 0px;
 }
 
 	#footer-menu li {

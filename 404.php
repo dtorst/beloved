@@ -2,23 +2,19 @@
 
 
 
-<div class="article" <?php post_class(); ?>>
-	<h1><?php _e( 'Error 404', 'simplestyle' ); ?></h1>
+	<div class="article" <?php post_class(); ?>>
 
-	
-	 <?php _e( 'The site could not be found.', 'simplestyle' ); ?>
+<h3 style="text-align:center;">Technical Difficulties</h3>
      
-<p><?php get_search_form(); ?></p>
+     <p>Something went wrong, but you can bet we're working on it.<br>
+     	Check back in a bit.</p>
 	
 	<div class="clear"></div>
-	
-	
 
-			
-	</div>
-	<div id="border-bottom"></div>
-	
-	
-	
-		
+</div><!--/article-->
+
+
+		<footer>
+	  <div class="clear"></div>
+	  <div class="page-footer"></div>
 	<?php get_footer(); ?>

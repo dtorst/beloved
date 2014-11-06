@@ -321,7 +321,7 @@ header {
 }
 
 .nav-top a:hover, a:active {
-	color:#737373;
+	color:#000;
 }
 
 .active {
@@ -468,7 +468,7 @@ header {
 .wp-paginate {padding:0; margin:0;font-family:GeoSansLight;font-size:12pt;letter-spacing:4px;color:#585858;min-width: 20px;}
 .wp-paginate li {display:inline; list-style:none;}
 .wp-paginate a {margin-right:4px; padding:4px 8px; text-align:center; text-decoration:underline;}
-.wp-paginate a:hover, .wp-paginate a:active {text-decoration: none;}
+.wp-paginate a:hover, .wp-paginate a:active {text-decoration: none; color:#000;}
 .wp-paginate .title {color:#555; margin-right:4px;}
 .wp-paginate .gap {color:#999; margin-right:4px;}
 .wp-paginate .current {text-decoration: none; margin-right:4px; padding:4px 8px;}
@@ -504,7 +504,7 @@ header {
 	}
 
 	.next a:hover {
-		color:#343434;
+		color:#000;
 	}
 
 
@@ -525,7 +525,7 @@ header {
 	}
 
 	.prev a:hover {
-		color:#343434;
+		color:#000;
 	}
 
 	.more-link {

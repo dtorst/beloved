@@ -38,9 +38,9 @@
 				<li><a href="http://mapsandlegends.co/beloved/about">ABOUT</a></li>
 				<li><a href="http://mapsandlegends.co/beloved/market">MARKET</a></li>
 				<li><a href="http://mapsandlegends.co/beloved/connect">CONNECT</a></li>
-				<li><a href="#" class="active">EN</a>&nbsp;/&nbsp;&nbsp;<a href="#">SP</a></li>
 			</ul>
 		</div>
-	</header><div class="clear"></div>
+	</header>		<?php get_sidebar(); ?>
+	<div class="clear"></div>
 	<div id="content">
 <div id="container">

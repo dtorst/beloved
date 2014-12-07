@@ -324,6 +324,15 @@ header {
 	margin-right:0px;
 }
 
+#menu-item-104-en::after {
+	content: "  /";
+}
+
+#menu-item-104-en {
+	padding-right:18px;
+	margin-right:0px;
+}
+
 .nav-menu {
 	position: relative;
 	display:block;

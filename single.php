@@ -52,13 +52,6 @@
 	 <div id="content-nav">
 
 
-
-<!-- killing this for now, until we have enough content to constitute --
-<h3 class="newer">&lt;&lt; NEWER</h3>
-<h3 class="older">OLDER >></h3>
--->
-
-
 	 <?php next_posts_link('<h3 class="older">&lt;&lt; OLDER</h3>') ?>
 	 
 	 <?php previous_posts_link('<h3 class="newer">NEWER >></h3>'); ?>

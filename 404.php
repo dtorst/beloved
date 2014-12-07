@@ -2,16 +2,16 @@
 
 
 
-	<div class="article" <?php post_class(); ?>>
-
-<h3 style="text-align:center;">Technical Difficulties</h3>
-     
-     <p>Something went wrong, but you can bet we're working on it.<br>
+<div class="blog-entry">
+	<div class="page-header">
+		<div class="page-title"><h4>Technical Difficulties</h4></div>
+    </div>
+     <p style="text-align:center;">Something went wrong, but you can bet we're working on it.<br>
      	Check back in a bit.</p>
 	
 	<div class="clear"></div>
 
-</div><!--/article-->
+</div>
 
 
 		<footer>

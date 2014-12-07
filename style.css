@@ -361,9 +361,10 @@ header {
 	}
 
 	.nav-top ul li a {
-		display: block;
+		display: inline-block;
 		border:none;
 		width: 100%;
+		margin:0 auto;
 		color:#737373;
 		text-align:center !important;
 		font-family:ChaparralPro-LightIt;

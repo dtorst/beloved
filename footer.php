@@ -1,8 +1,8 @@
 <div id="footer-container">
 	<ul id="social-menu">
 		<a href=""><li class="social" id="feedly"></li></a>
-		<a href=""><li class="social" id="instagram"></li></a>
-		<a href=""><li class="social" id="pinterest"></li></a>
+		<a href="http://www.instagram.com/thisisbeloved" target="_blank"><li class="social" id="instagram"></li></a>
+		<a href="http://www.pinterest.com/thisisbeloved" target="_blank"><li class="social" id="pinterest"></li></a>
 		<a href=""><li class="social" id="bloglovin"></li></a>
 	</ul>
 

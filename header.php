@@ -27,20 +27,23 @@
 	<header>
 		<div id="logo">
 			<a href="http://mapsandlegends.co/beloved"><div class="logo-img"></div></a>
+			<?php wp_nav_menu( array( 'menu_class' => 'nav-menu' ) ); ?>
+<!--
 			<ul class="nav-top">
 				<li><a href="http://mapsandlegends.co/beloved">BLOG</a>
 					<ul>
 						<li><a href="./category/move">move</a></li>
 						<li><a href="./category/nourish">nourish</a></li>
 						<li><a href="./category/yonder">yonder</a></li>
-					</ul><!--/rollover-menu-->
+					</ul><!--/rollover-menu--
 				</li>
 				<li><a href="http://mapsandlegends.co/beloved/about">ABOUT</a></li>
 				<li><a href="http://mapsandlegends.co/beloved/market">MARKET</a></li>
 				<li><a href="http://mapsandlegends.co/beloved/connect">CONNECT</a></li>
 			</ul>
+-->
 		</div>
-	</header>		<?php get_sidebar(); ?>
+	</header>		<!--<?php get_sidebar(); ?>-->
 	<div class="clear"></div>
 	<div id="content">
 <div id="container">

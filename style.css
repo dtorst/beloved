@@ -311,24 +311,37 @@ header {
 	background-position: 0px -30px;
 }
 
-.nav-top {
+.current-menu-item a, .current_page_item a, .current-lang a {
+	color:#000 !important;
+}
+
+#menu-item-91-en::after {
+	content: "  /";
+}
+
+#menu-item-91-en {
+	padding-right:18px;
+	margin-right:0px;
+}
+
+.nav-menu {
 	position: relative;
 	display:block;
 /*		overflow:auto; */
 	margin:40px 0px 40px 20px;
 }
 	
-.nav-top li {
+.nav-menu li {
 	position: relative;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	float:left;
 	margin-right:10px;
-	padding:15px 12px;
+	padding:15px 24px 15px 0px;
 }
 	
-.nav-top a {
+.nav-menu a {
 	color:#afafaf;
 	font-family:GeoSansLight;
 	font-size:14pt;
@@ -336,33 +349,11 @@ header {
 	padding:0px 5px 10px 5px;
 }
 
-.nav-top a:hover, a:active {
+.nav-menu a:hover, a:active {
 	color:#000;
 }
 
-.active {
-	color:#000 !important;
-}
-
-#sidebar-widget ul li:first-child::after {
-	content: " /";
-}
-
-#sidebar-widget ul li {
-	float:left;
-	margin-top:16px;
-	padding:0px 5px;
-	color:#afafaf;
-	font-family:GeoSansLight;
-	font-size:14pt;
-	letter-spacing:0.3em;
-}
-
-#sidebar-widget ul li a:hover {
-	color:#000;
-}
-
-.nav-top ul {
+.nav-menu ul {
 	position:absolute;
 	z-index: 40;
 	left:-9999px;
@@ -371,14 +362,14 @@ header {
 	background-color:rgba(226,226,226,0.7);
 }
 
-	.nav-top ul li {
+	.nav-menu ul li {
 		float:left;
 		margin-right: 5px;
 		text-align:center !important;
 		padding: 5px 10px 0px 5px;
 	}
 
-	.nav-top ul li a {
+	.nav-menu ul li a {
 		display: inline-block;
 		border:none;
 		width: 100%;
@@ -390,18 +381,19 @@ header {
 		letter-spacing:1px;
 	}
 
-.nav-top li:hover ul {
+.nav-menu li:hover ul {
 	left:7px;
 }
 
-.nav-top li:hover ul a {
+.nav-menu li:hover ul a {
 	text-decoration: none;
 }
 
-.nav-top li:hover ul li a:hover {
+.nav-menu li:hover ul li a:hover {
 	text-decoration: underline;
 	border:none;
 }
+
 
 /* --------- Post Header --------- */
 	.icon {

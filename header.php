@@ -23,7 +23,7 @@
 </head>
 <body <?php body_class(); ?>>
 <div class="main-container" style="margin:0px;padding:0px;background-color:#363636;width:100%;display:block;">
-	<div class="main" style="margin:0 auto;width:1050px;height:100%;background-color:#fafafa;display:block;">
+	<div class="main" style="margin:0 auto;width:950px;height:100%;background-color:#fafafa;display:block;">
 	<header>
 		<div id="logo">
 			<a href="http://thisisbeloved.com"><div class="logo-img"></div></a>

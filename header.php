@@ -26,22 +26,9 @@
 	<div class="main" style="margin:0 auto;width:1050px;height:100%;background-color:#fafafa;display:block;">
 	<header>
 		<div id="logo">
-			<a href="http://mapsandlegends.co/beloved"><div class="logo-img"></div></a>
-			<?php wp_nav_menu( array( 'menu_class' => 'nav-menu' ) ); ?>
-<!--
-			<ul class="nav-top">
-				<li><a href="http://mapsandlegends.co/beloved">BLOG</a>
-					<ul>
-						<li><a href="./category/move">move</a></li>
-						<li><a href="./category/nourish">nourish</a></li>
-						<li><a href="./category/yonder">yonder</a></li>
-					</ul><!--/rollover-menu--
-				</li>
-				<li><a href="http://mapsandlegends.co/beloved/about">ABOUT</a></li>
-				<li><a href="http://mapsandlegends.co/beloved/market">MARKET</a></li>
-				<li><a href="http://mapsandlegends.co/beloved/connect">CONNECT</a></li>
-			</ul>
--->
+			<a href="http://thisisbeloved.com"><div class="logo-img"></div></a>
+			<?php wp_nav_menu( array( 'theme_location' => 'header-nav', 'menu_class' => 'nav-menu' ) ); ?>
+
 		</div>
 	</header>		<!--<?php get_sidebar(); ?>-->
 	<div class="clear"></div>

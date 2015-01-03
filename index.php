@@ -14,11 +14,17 @@
 			<li class="icon">
 				<?php
 					if ( in_category( '3')) {
-			echo '<a href="http://mapsandlegends.co/beloved/category/nourish"><div class="nourish-icon"></div></a>';
+			echo '<a href="http://thisisbeloved.com/category/nourish/"><div class="nourish-icon"></div></a>';
+					} else if ( in_category( '19')) {
+			echo '<a href="http://thisisbeloved.com/category/nutrir/"><div class="nourish-icon"></div></a>';
 					} else if ( in_category( '2')) {
-			echo '<a href="http://mapsandlegends.co/beloved/category/move"><div class="movement-icon"></div></a>';
-					} else if ( in_category('5')) {
-			echo '<a href="http://mapsandlegends.co/beloved/category/yonder"><div class="yonder-icon"></div></a>';
+			echo '<a href="http://thisisbeloved.com/category/move/"><div class="movement-icon"></div></a>';
+					} else if ( in_category('17')) {
+			echo '<a href="http://thisisbeloved.com/category/mover/"><div class="movement-icon"></div></a>';
+					} else if ( in_category('4')) {
+			echo '<a href="http://thisisbeloved.com/category/yonder/"><div class="yonder-icon"></div></a>';
+					} else if ( in_category('21')) {
+			echo '<a href="http://thisisbeloved.com/category/alla/"><div class="yonder-icon"></div></a>';						
 					}
 				 ?>
 			</li>

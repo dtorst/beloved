@@ -63,6 +63,28 @@ function simplestyle_filter_wp_title( $title ) {
 add_filter( 'wp_title', 'simplestyle_filter_wp_title' );
 
 
+// Login Logo
+function my_login_logo() { ?>
+    <style type="text/css">
+        body.login div#login h1 a {
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/img/login-main-logo.png);
+            padding-bottom: 30px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+function my_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
+
+function my_login_logo_url_title() {
+    return 'Your Site Name and Info';
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+
+
 // Custom Menus
  
 function simplestyle_nav() {
@@ -70,7 +92,12 @@ function simplestyle_nav() {
         'header-nav' => 'Header Menu',
     ));
 }
+
+
 add_action('init', 'simplestyle_nav');
+
+
+// wp_nav_menu( 'theme_location', 'header-nav' );
 
 add_theme_support( 'post-thumbnails' );
 set_post_thumbnail_size( 790 );
